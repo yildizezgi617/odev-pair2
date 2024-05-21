@@ -1,0 +1,33 @@
+<!-- src/app/components/product-list/product-list.component.html -->
+
+<div class="container py-5">
+  <div class="row">
+    <div class="col-8">
+      <h2 class="text-center">Product List</h2>
+      <table class="table text-center py-5">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+        <tr *ngFor="let product of products">
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.description }}</td>
+          <td>{{ product.price }}</td>
+          <td>
+            <button class="btn btn-primary mx-2 px-3" (click)="editProduct(product.id)">Edit</button>
+            <button class="btn btn-danger mx-2 px-3" (click)="deleteProduct(product.id)">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-4">
+      <h2>Ürün Ekleme</h2>
+      <app-product-add></app-product-add>
+    </div>
+  </div>
+</div>
+

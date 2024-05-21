@@ -1,0 +1,9 @@
+.ysnbtn {
+  background-color: initial; /* İstediğiniz başlangıç rengi */
+  transition: background-color 2s;
+}
+
+
+.ysnbtn:hover {
+  background-color: green;
+}

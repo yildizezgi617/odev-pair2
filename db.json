@@ -1,0 +1,51 @@
+{
+  "categories": [
+    {
+      "name": "Electronik",
+      "description": "Electronik cihazlar",
+      "id": "1"
+    },
+    {
+      "name": "Kırtasiye",
+      "description": "Kitaplar burada",
+      "id": "2"
+    },
+    {
+      "id": "d595",
+      "name": "deneme",
+      "description": "deneme açıklama"
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop",
+      "description": "A personal computer",
+      "price": 999.99,
+      "id": "1"
+    },
+    {
+      "name": "Laptop 2",
+      "description": "A personal computer2",
+      "price": 999.99,
+      "id": "2"
+    },
+    {
+      "name": "Laptop 3",
+      "description": "A personal computer",
+      "price": 999.99,
+      "id": "3"
+    },
+    {
+      "id": "5854",
+      "name": "deneme",
+      "description": "deneme açıklama",
+      "price": 50000
+    },
+    {
+      "id": "14d4",
+      "name": "deneme",
+      "description": "deneme açıklama",
+      "price": 50000
+    }
+  ]
+}

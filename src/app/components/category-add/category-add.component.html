@@ -1,0 +1,13 @@
+<!-- src/app/components/category-add/category-add.component.html -->
+<h2>Add Category</h2>
+<form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label class="form-label" for="name">Name</label>
+    <input placeholder="Kategori Adını Giriniz" id="name" formControlName="name">
+  </div>
+  <div>
+    <label for="description">Description</label>
+    <input placeholder="Açıklamasını  Giriniz"id="description" formControlName="description">
+  </div>
+  <button  class="btn btn-outline-primary ysnbtn" type="submit">Add</button>
+</form>

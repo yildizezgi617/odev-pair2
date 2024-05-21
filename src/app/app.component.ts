@@ -1,12 +1,12 @@
+// src/app/app.component.ts
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
+  template: `<router-outlet></router-outlet>`,
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [RouterModule]
 })
 export class AppComponent {
   title = 'kategori-urun-yonetimi';

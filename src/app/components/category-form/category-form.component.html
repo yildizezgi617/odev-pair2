@@ -1,0 +1,13 @@
+<!-- src/app/components/category-form/category-form.component.html -->
+<h2>Category Form</h2>
+<form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" formControlName="name" />
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <input id="description" formControlName="description" />
+  </div>
+  <button type="submit">Submit</button>
+</form>
